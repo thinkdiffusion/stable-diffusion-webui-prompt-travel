@@ -11,8 +11,8 @@ if 'externel repo sanity check':
     from modules.scripts import basedir
     from traceback import print_exc
 
-    ME_PATH = Path(basedir())
-    CTRLNET_PATH = ME_PATH.parent / 'sd-webui-controlnet'
+    ME_PATH = "/home/ubuntu/stable-diffusion-webui/extensions-builtin"
+    CTRLNET_PATH = ME_PATH / 'sd-webui-controlnet'
 
     controlnet_found = False
     try:
